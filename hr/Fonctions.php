@@ -3114,7 +3114,7 @@ class Fonctions
 
         /***********************************/
         // AFFICHAGE DE LA PAGE
-        header_menu('', 'Libertempo : '._('divers_fermeture'), $add_css);
+        header_menu('', 'Planning Saint-Vidian : '._('divers_fermeture'), $add_css);
 
         /*********************************/
         /*   AFFICHAGE DES ONGLETS...  */

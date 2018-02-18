@@ -47,7 +47,7 @@ if ( !isset($onglets[ $onglet ]) && !in_array($onglet, array('modif_demande','su
 /*********************************/
 
 $add_css = '<style>#onglet_menu .onglet{ width: ' . (str_replace(',', '.', 100 / count($onglets))) . '% ;}</style>';
-header_menu('', 'Libertempo : ' . _('user'), $add_css);
+header_menu('', 'Planning Saint-Vidian : ' . _('user'), $add_css);
 
 /*********************************/
 /*   AFFICHAGE DES ONGLETS...  */

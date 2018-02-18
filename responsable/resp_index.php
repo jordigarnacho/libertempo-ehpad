@@ -72,7 +72,7 @@ if (!isset($onglets[$onglet]) && !in_array($onglet, array('traite_user', 'modif_
 /*********************************/
 
 $add_css = '<style>#onglet_menu .onglet{ width: ' . (str_replace(',', '.', 100 / count($onglets))) . '% ;}</style>';
-header_menu('', 'Libertempo : ' . _('divers_responsable_maj_1'), $add_css);
+header_menu('', 'Planning Saint-Vidian : ' . _('divers_responsable_maj_1'), $add_css);
 
 /*********************************/
 /*   AFFICHAGE DES ONGLETS...  */

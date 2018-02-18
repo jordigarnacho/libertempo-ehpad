@@ -73,7 +73,7 @@ foreach ($utilisateursATrouver as $nom) {
     $employesATrouver[$nom] = \App\ProtoControllers\Utilisateur::getNomComplet($employe['u_prenom'], $employe['u_nom']);
 }
 
-header_menu('', 'Libertempo : '._('calendrier_titre'));
+header_menu('', 'Planning Saint-Vidian : '._('calendrier_titre'));
 
 if ($jourDemande instanceof \DateTimeInterface) {
     $evenements->fetchEvenements(

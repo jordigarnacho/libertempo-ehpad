@@ -49,7 +49,7 @@ if ( !isset($onglets[ $onglet ]) && !in_array($onglet, ['traite_user', 'modif_pl
 /*********************************/
 
 $add_css = '<style>#onglet_menu .onglet{ width: '. (str_replace(',', '.', 100 / count($onglets) )).'% ;}</style>';
-header_menu('', 'Libertempo : '._('resp_menu_button_mode_hr'),$add_css);
+header_menu('', 'Planning Saint-Vidian : '._('resp_menu_button_mode_hr'),$add_css);
 
 /*********************************/
 /*   AFFICHAGE DES ONGLETS...  */
